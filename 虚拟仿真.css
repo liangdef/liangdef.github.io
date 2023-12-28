@@ -1,0 +1,128 @@
+
+/*右边页面*/
+ .all{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	border-left: 5px solid lightblue;
+	border-right: 5px solid lightblue;
+} 
+/*头部*/
+.head{
+	height: 50px;
+	background-color: royalblue;
+	text-align: center;
+	color:white;
+	font-size: 30px;
+}
+.head p{
+		line-height:40px;
+	    letter-spacing: 50px;
+}
+.Viedo1 li{
+	float: right;
+	width: 200px;
+	text-align: center;
+	}
+
+.Viedo1 li a{
+	display: block;
+	color: blue;
+	padding: 6px;
+	font-size: 18px;
+	}
+.Viedo1 a:hover,.first{
+	/* background-color: orange; */
+	font-size: larger;
+	}
+/*表单*/
+.bor1{
+	width: 280px;
+	height: 300px;
+	border: 2px solid gainsboro;
+	position: fixed;
+	left: 12px;
+	top:200px;
+	color: saddlebrown;
+}
+input[type="text" ]{
+	border: 1px solid dimgray;
+	margin: 25px;
+	height: 30px;
+}
+input[type="submit"]{
+	background-color: royalblue;
+	position: absolute;
+	top:200px;
+	left: 130px;
+	color: wheat;
+	cursor: pointer;
+}
+input[type="text"]:hover{
+	border: 2px solid skyblue;
+}
+input[type="submit"]:hover{
+	width: 80px;
+	height: 30px;
+}
+
+/*图标*/
+.bor3{
+	margin: 15px;
+}
+/*单个图标*/
+.bor3 i{
+	margin: 10px;
+}
+.bor3 i:hover{
+	color: darkgray;
+	cursor: pointer;
+}
+/*右侧布局*/
+.right{
+	border-bottom: 2px solid lightgray;
+	margin: 30px 30px 50px 30px;
+}
+/*右侧最下面的一个div*/
+.right1{
+	margin: 30px;
+}
+/*图片*/
+.pho{
+	margin-bottom: 30px;
+	width: 500px;
+}
+video{
+	width: 600px;
+	height: 300px;
+}
+/*段落文字*/
+ p{
+	line-height: 3;
+}
+/*图标*/
+i{
+	margin: 5px;
+}
+/*谨记*/
+.tip1{
+	color: chocolate;
+	background-color: lightblue;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+/*页脚*/
+.footer{
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	color:gray;
+	line-height:2;
+	border-top: 2px solid lightgray;
+	
+} 
+.footer a{
+	color:gray ;
+}
+	

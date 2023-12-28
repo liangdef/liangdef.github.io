@@ -1,0 +1,64 @@
+/*首页主体内容代码*/
+.center{
+	position: relative;
+	display: block;
+}
+/*左边标题*/
+.left p{
+	font-size: 21px;
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+/*页脚*/
+.footer{
+	clear: both;
+	text-align: center;
+	font-size: 12px;
+	color:gray;
+	line-height:2;
+	border-top: 2px solid lightgray;
+
+	}
+.footer a{
+	color:gray ;
+}
+/*信息文字框 */
+.right3{
+	position: relative;
+	left: 17%;
+	width: 70%;
+	/* border-bottom: 1px solid gainsboro; */
+}
+/* 游乐园小字 */
+.right3 p{
+	text-indent: 20px;
+}
+.right3 h2{
+	font-size: 32px;
+	font-family: "arial black";
+}
+.cer{
+	margin-bottom: 30px;
+}
+/* 表格部分空格颜色 */
+.gren{
+	background-color: lightgray;
+}
+/* 蓝色前标 */
+.right3 img{
+	margin-bottom: 30px;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	/* float: left; */
+	
+}
+/*表格*/
+table{
+	height: 80px;
+	width: 500px;
+	left: 17%;
+	margin: 20px;
+}

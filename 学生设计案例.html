@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>设计案例</title>
+		<link rel="stylesheet" href="学生设计案例.css">
+		<link rel="stylesheet" href="public.css">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+	</head>
+	<body>
+		<div class="head">
+			<p>案例如下</p>
+		</div>
+		</div>
+		   
+		<div class="all">
+		  <div class="right">
+			  <h2><i class="fa fa-hand-o-right"></i>案例1：基于 TRIZ 隧道巡检机器人优化方案设计</h2>
+			 <p>（1）隧道巡检机器人优化方案。起初构建有轨和无轨两个方向的方案（如方案1和方案2），然后通过分析对其不断进行优化，使其朝着最终理想解的方向前进。
+优化方案1：巡检机器人以蜘蛛为原型设计，拥有多个足部支架，支架可旋转，摄像、红外热成像仪等传感器设置于足部，便于摄像监测多角度进行，也避免单个传感器引起的局部测试的不足。
+优化方案2：智能巡检机器人，操纵界面简单，无轨道行驶，后台操控行驶路线。
+</p> 
+			 <p> （2）隧道巡检机器人技术矛盾分析。技术矛盾1：以蜘蛛为原型，采用多个足部支架连接多个摄像仪器，改善了“测试精度”，但是恶化了“装置的复杂性”。
+    技术矛盾2：无轨道行驶增加了“自动化程度”，但是恶化了“运动物体的能量”。
+为了解决这两对技术矛盾，我们通过矛盾矩阵（见表3-5矛盾矩阵图表）查找，在竖着的一列找出想要改善的参数，再在横着的一行找到被恶化的参数,两行（列）相交的格子,就是处理这对矛盾时以往用得最多的解决原理。如表3-5所示，可知解决技术矛盾1所适用的创新原理为原理27、原理35、原理10；如表3-6所示，解决技术矛盾2所适用的创新原理为原理2、原理32、原理13。</p>
+			<img src="表3-5.jpg"class="pho">
+			<h4>隧道巡检机器人设计方案评价及确定</h4>
+			<p>（1）TRIZ 理论评价原则。对TRIZ进行评价的方法主要是考察它是否以较少的成本和较低的复杂性成功的改善了技术系统的主要有用性能，同时有效地避免了技术系统已有或新生缺陷的产生。若某个方案完全符合评价原则的基本标准，则表明该解决方案满足TRIZ理想度法则，若没有完全符合的方案，越接近这些指标标准的方案即为最理想的方案。</p>
+			<p>（2）隧道巡检机器人优化方案评价指标的确定。通过以上建立的需求分析表，以及TRIZ理论中提高理想度的评判标准，可以得到对隧道巡检机器人优化方案进行评价分析的系列指标，分别如下：
+			基本功能：监测功能，代替人力监测隧道或管道的情况。这是评价的根本指标。
+			    质量：产品质量的好坏关系到企业的生存和发展，也关系到消费者的权益，故而将质量指标作为评价指标的第二指标。
+			    成本价格：本产品价格相对较高，消费者一般是企业、单位等用户，价格也是用户在购买时十分注重的因素。
+			    操作便捷性：操作便捷可以使企业无须单独的劳动力来操作机器，节省人力。
+			复杂性：产品复杂性增加，无形中会增加装配难度以及零件的成本，对产品制造周期以及价格都有不利影响。耐用和维修服务：用户在购买时会充分考虑耐用性和维修服务，来保障整体运作流畅性。
+形态与美观：外观美观可以使消费者更愿意选择这款产品。
+			</p>
+			<p>基于 TRIZ 的隧道巡检机器人优化设计方案确定。将上述的优化设计方案6带入评价系统中，检验该方案是否符合各项评价指标。
+结果表明，优化设计方案6适合于隧道和综合管廊，造型饱满圆润，打破传统隧道机器人外形，通过高清摄像机、红外热成像仪搭配可升降云台、折叠机械臂，实现全方位、全时段、立体式的巡查和监测，提高巡检效率，节省人力物力。最终优化方案如图3-8~图3-11所示。</p>
+			<img src="效果图1.jpg"class="pho">
+			<img src="示意图.jpg"class="pho">
+			<img src="展示图.jpg"class="pho">
+			<img src="尺寸图.jpg"class="pho">
+		  </div>
+		  <div class="right">
+			  <h2><i class="fa fa-hand-o-right"></i>案例2:圆捆机</h2><br>
+			  <h3>产品子系统功能确定</h3>
+			 <p> （1）确定圆捆机的基本功能。对人收割秸秆的工作进行分析，可以得到以下几个步骤：驾驶车行驶到田间，切割秸秆或牧草，对秸秆或牧草进行打捆，完成工作返回。对其进行概括，得到产品基本的功能应该有：驾驶功能、行走功能、操作功能、切割功能、捡拾功能、打捆功能这些基本功能。</p>
+			 <p>（2）确定圆捆机的子系统功能。经上述确定自行式圆捆机的基本子系统有：驾驶系统、行走系统、操作系统、切割系统、捡拾系统、打捆系统六大子系统，其中，驾驶系统可以和操作系统共同存在于驾驶室中，切割系统、捡拾系统和打捆系统共同作用称为圆捆组件（图3-44）。</p>
+			<img src="子系统.jpg"class="pho">
+			<h3>最终效果呈现</h3>
+			<img src="最终效果.jpg"class="pho">
+			<img src="效果2.jpg"class="pho">
+			<img src="效果3.jpg"class="pho">
+		  </div>
+		  <div class="right">
+			  <h2>学生作品展示</h2>
+			  <h3><i class="fa fa-hand-o-right"></i>尺寸图</h3><br>
+			  <img src="./imgs/尺寸图/尺寸图.jpg" class="pho">
+			  <img src="./imgs/尺寸图/尺寸图2.jpg" class="pho">
+			  <img src="./imgs/尺寸图/尺寸图3.jpg" class="pho">
+			  <h3><i class="fa fa-hand-o-right"></i>结构图</h3><br>
+			  <img src="./imgs/结构图/结构图1.jpg" class="pho">
+			  <img src="./imgs/结构图/结构图2.jpg" class="pho">
+			  <img src="./imgs/结构图/结构图3.jpg" class="pho">
+			  <h3><i class="fa fa-hand-o-right"></i>设计草图</h3><br>
+			   <img src="./imgs/设计草图/a27a944537471da0fbcea317ff5b866.jpg" class="pho">
+			   <img src="./imgs/设计草图/个人设计草图1.jpg" class="pho">
+			  <h3><i class="fa fa-hand-o-right"></i>实景图</h3><br>
+			  <img src="./imgs/实景图/桌面.jpg" class="pho">
+			  <img src="./imgs/实景图/6c774aa47728502076eb165bfa41894.jpg" class="pho">
+			  <img src="./imgs/实景图/1%20(2).jpg" class="pho">
+			  <img src="./imgs/实景图/1.jpg" class="pho">
+			  <img src="./imgs/实景图/场景2.jpg" class="pho">
+			  <img src="./imgs/实景图/室内2.jpg" class="pho">
+			  <h3><i class="fa fa-hand-o-right"></i>效果图</h3><br>
+			  <img src="./imgs/效果图/95570995999ad4b1692a4767aa5f86c.png" class="pho">
+			  <img src="./imgs/效果图/abc25c876f8f123441115f2c94d6b65.jpg" class="pho">
+			  <img src="./imgs/效果图/效果图.png" class="pho">
+			  <img src="./imgs/效果图/效果图39.jpg"class="pho">
+			  <img src="./imgs/效果图/效果图100.jpg"class="pho">
+			  <h3><i class="fa fa-hand-o-right"></i>制作过程</h3><br>
+			  <img src="./imgs/制作过程/10%20(1)最终装订.jpg"class="pho">
+			  <img src="./imgs/制作过程/10%20(2).jpg"class="pho">
+			  <img src="./imgs/制作过程/10%20(3).jpg"class="pho">
+			  <img src="./imgs/制作过程/3.jpg"class="pho">
+			  <img src="./imgs/制作过程/3a995c25ad54e551a8d599dd0f90e62.jpg"class="pho">
+			  <img src="./imgs/制作过程/4a6f90ac339456f7a41ed50724fd22f.jpg"class="pho">
+			  <img src="./imgs/制作过程/79a430816824ae331392e7401a4f63b.jpg"class="pho">
+			  <img src="./imgs/制作过程/a2a6c058207e96ccf656e5f45931fe0.jpg"class="pho">
+			  <img src="./imgs/制作过程/aee5cedde909fab4c2b78330ae6dca9.jpg"class="pho">
+		  </div>
+		</div>
+		<footer class="footer">
+			<div class="foot">
+				<ul>
+					<li>
+						<a href="">法律条款</a>
+						<a href="">隐私保护</a>
+						<a href="">联系我们</a>
+						<a href="">常见问题</a>
+					</li>
+					<p>版权所有@积木团队</p>
+					<p>声明：此网站仅用于课题申报</p>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

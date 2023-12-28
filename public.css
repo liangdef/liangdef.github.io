@@ -1,0 +1,15 @@
+body,ul,li,p,div,h1,h2,h3,a,img{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+input{
+	outline: none;
+	border: 0;
+}
